@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>弹性盒布局-对齐方式main axis</title>
+    <style>
+        div {
+            border: 2px solid lightblue;
+        }
+
+        #container {
+            height: 30px;
+            width: 600px;
+            border: solid 5px blue;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            /*justify-content: flex-start;*/
+            /*justify-content: flex-end;*/
+            /*justify-content: space-around;*/
+            /*justify-content: center;*/
+        }
+
+        #text-a, #text-b, #text-c {
+
+        }
+
+        #text-a {
+            background-color: limegreen;
+            width: 100px;
+        }
+
+        #text-b {
+            background-color: yellow;
+            width: 150px;
+        }
+
+        #text-c {
+            background-color: limegreen;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <div id="text-a">
+        示例文字a
+    </div>
+    <div id="text-b">
+        示例文字b
+    </div>
+    <div id="text-c">
+        示例文字c
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>弹性盒布局-多个flex</title>
+    <style>
+        div{
+            box-sizing: border-box;
+            border: 2px solid lightblue;
+        }
+        #container {
+            height: 700px;
+            width: 1000px;
+            display: flex;
+            flex-direction: row;
+        }
+
+        #text-a {
+            flex: 1;
+            background-color: limegreen;
+        }
+
+        #text-b {
+            flex: 1;
+            background-color: yellow;
+        }
+
+        #text-c {
+            background-color: limegreen;
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <div id="left">
+        <h3>左侧</h3>
+        <ul>
+            <li><a href="">超链接</a></li>
+            <li><a href="">超链接</a></li>
+            <li><a href="">超链接</a></li>
+            <li><a href="">超链接</a></li>
+            <li><a href="">超链接</a></li>
+        </ul>
+    </div>
+    <div id="content">
+        <p>
+            示例文字示例文字示例文字示例文字示例文字示例文字示例文字示例文字</p>
+    </div>
+    <div id="right">
+        <h3>右侧</h3>
+        <ul>
+            <li><a href="">超链接</a></li>
+            <li><a href="">超链接</a></li>
+            <li><a href="">超链接</a></li>
+            <li><a href="">超链接</a></li>
+            <li><a href="">超链接</a></li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>

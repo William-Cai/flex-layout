@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>弹性盒布局-行排列</title>
+    <style>
+        #container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        #text-a {
+            order: 3;
+            width: 200px;
+            background-color: limegreen;
+        }
+
+        #text-b {
+            flex: 1;
+            order: 1;
+            background-color: yellow;
+        }
+
+        #text-c {
+            order: 2;
+            width: 200px;
+            background-color: limegreen;
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <div id="left">
+        <h3>左侧</h3>
+        <ul>
+            <li><a href="">超链接</a></li>
+            <li><a href="">超链接</a></li>
+            <li><a href="">超链接</a></li>
+            <li><a href="">超链接</a></li>
+            <li><a href="">超链接</a></li>
+        </ul>
+    </div>
+    <div id="content">
+        <p>
+            示例文字示例文字示例文字示例文字示例文字示例文字示例文字示例文字示例文字示例文字示例文字示例文字示例文字示例文字示例文字示例文字示例文字示例文字示例文字示例文字示例文字示例文字示例文字示例文字示例文字示例文字示例文字示例文字</p>
+    </div>
+    <div id="right">
+        <h3>右侧</h3>
+        <ul>
+            <li><a href="">超链接</a></li>
+            <li><a href="">超链接</a></li>
+            <li><a href="">超链接</a></li>
+            <li><a href="">超链接</a></li>
+            <li><a href="">超链接</a></li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>
